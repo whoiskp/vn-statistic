@@ -1,0 +1,1075 @@
+/*
+Template Name: Zircos Dashboard
+Author: CoderThemes
+Email: coderthemes@gmail.com
+File: Responsive
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .email-msg {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .mobile-sidebar {
+    left: 0px;
+  }
+
+  .mobile-content {
+    left: 250px;
+    right: -250px;
+  }
+
+  .wrapper-page {
+    width: 90%;
+  }
+
+  .wizard>.steps>ul>li {
+    width: 100%;
+  }
+
+  .wizard>.content {
+    padding: 0px !important;
+  }
+
+  .wizard>.content>.body {
+    float: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+  }
+
+  .wizard.vertical>.steps {
+    display: inline;
+    float: none;
+    width: 100%;
+  }
+
+  .wizard.vertical>.content {
+    display: inline;
+    float: none;
+    margin: 0%;
+    width: 100%;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    left: auto;
+    position: absolute;
+    right: 0;
+    max-width: 205px;
+  }
+
+  .todo-send {
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+
+  .chat-inputbar {
+    padding-left: 15px;
+  }
+
+  .chat-send {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dataTables_wrapper .col-xs-6 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .ms-container {
+    width: 100%;
+  }
+
+  .email-msg {
+    display: none;
+  }
+
+  .menu-extras ul.nav {
+    display: flex;
+  }
+
+  .menu-extras ul.nav li.navbar-c-items {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .side-menu {
+    z-index: 10 !important;
+  }
+
+  .button-menu-mobile {
+    display: block;
+  }
+
+  .search-bar {
+    display: none !important;
+  }
+
+  .dropdown-menu-lg {
+    width: 220px !important;
+  }
+
+  .notification-list em {
+    display: none;
+  }
+
+  .notification-list .media-body {
+    margin-left: 0 !important;
+  }
+
+  .page-title-box {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .hide-phone {
+    display: none !important;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-toggle {
+    float: left;
+  }
+
+  .navbar-toggle .lines {
+    margin-left: 5px !important;
+  }
+}
+
+/* Container-alt */
+@media (min-width: 768px) {
+  .container-alt {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-alt {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-alt {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 419px) {
+  .topbar-left {
+    width: 70px !important;
+  }
+
+  .content-page {
+    margin-left: 70px;
+  }
+
+  .forced .side-menu.left {
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .enlarged .side-menu.left {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .popup-box {
+    width: 150%;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(0.5);
+    position: absolute;
+    border: 7px solid #115cb7;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background: #fff;
+    text-align: center
+  }
+
+  .lsnt>h6 {
+    color: #0a0a0a;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/addr_pin.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .lsnt>p {
+    color: #6d6d6d;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/prdc_icn.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .inp_prdc {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    font-weight: 400;
+    width: 80%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px
+  }
+
+  .tbs_btn>ul>li {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    padding: 13px 22px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: #111;
+    font-weight: 500;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    box-shadow: inset 0 0 0 0 #115cb7;
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .8s;
+    cursor: pointer
+  }
+
+  .tbs_btn>ul>li.active {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #115cb7;
+    padding: 13px 22px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #dedede
+  }
+}
+
+< !--@media only screen and (min-width: 800px) and (max-width:1200px) {
+  .inp_prdc {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    font-weight: 400;
+    width: 80%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px
+  }
+
+  .tbs_btn>ul>li {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    padding: 13px 22px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: #111;
+    font-weight: 500;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    box-shadow: inset 0 0 0 0 #115cb7;
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .8s;
+    cursor: pointer
+  }
+
+  .tbs_btn>ul>li.active {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #115cb7;
+    padding: 13px 22px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #dedede
+  }
+}
+
+-->@media only screen and (min-device-width: 320px) and (max-device-width:480px) {
+  .popup-box {
+    width: 120%;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(0.5);
+    position: absolute;
+    border: 7px solid #115cb7;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background: #fff;
+    text-align: center
+  }
+
+  .cntry_lst>ul>li {
+    width: 100%;
+    border-right: 1px dashed #dedede;
+    float: left;
+    padding: 10px 20px 10px 30px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    trainsitiion: .5
+  }
+
+  .continent_ar>ul>li {
+    font: 26px/27px 'PT Sans', sans-serif;
+    float: left;
+    width: 100%;
+    color: #000;
+    padding-bottom: 13px
+  }
+
+  .srch_btn1 {
+    width: 100%;
+    background: #f77621;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: right;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    padding: 10px 20px;
+    transition: .3s
+  }
+
+  .inp_prdcinn {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px
+  }
+
+  .rst_bg>ul>li:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-size: 33px;
+    text-shadow: 2px 2px 2px #343434;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    line-height: 37px;
+    display: inline-block
+  }
+
+  .rst_bg>ul>li:nth-child(2) {
+    width: 100%;
+    height: auto;
+    display: inline;
+    text-align: center;
+    margin-left: 65px
+  }
+
+  .lsnt {
+    padding: 20px;
+    border-bottom: 1px solid #dedede;
+    font-family: 'Roboto'
+  }
+
+  .lsnt>h2 {
+    color: #115cb7;
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 45px
+  }
+
+  .lsnt>h4 {
+    color: #f77621;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0
+  }
+
+  .lsnt>h6 {
+    color: #0a0a0a;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/addr_pin.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .lsnt>p {
+    color: #6d6d6d;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/prdc_icn.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .sel_mega>ul>li {
+    width: 48%;
+    float: left;
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    color: #000;
+    padding: 5px;
+    transition: 1s
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 100%;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #f7f7f7;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15)
+  }
+
+  .in_prdin {
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    border: 0;
+    font-family: 'PT Sans';
+    font-size: 17px
+  }
+
+  .sec_dir {
+    border: 0;
+    width: 100%;
+    padding: 10px 5px;
+    font-family: 'PT Sans';
+    text-align: left;
+    border-bottom: 1px dashed #dedede;
+    font-size: 17px;
+    border-right: 1px solid #dedede
+  }
+
+  .srch_btn {
+    background: #115cb7;
+    color: #fff;
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: .3s;
+    font-weight: bold
+  }
+
+  .inp_prdc {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px;
+    border-bottom: 1px solid #dedede
+  }
+
+  .tbs_btn>ul>li {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    padding: 13px 9px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    box-shadow: inset 0 0 0 0 #115cb7;
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .8s;
+    cursor: pointer
+  }
+
+  .tbs_btn>ul>li.active {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #115cb7;
+    padding: 13px 9px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #dedede
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .popup-box {
+    width: 120%;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(0.5);
+    position: absolute;
+    border: 7px solid #115cb7;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background: #fff;
+    text-align: center
+  }
+
+  .cntry_lst>ul>li {
+    width: 100%;
+    border-right: 1px dashed #dedede;
+    float: left;
+    padding: 10px 20px 10px 30px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    trainsitiion: .5
+  }
+
+  .continent_ar>ul>li {
+    font: 26px/27px 'PT Sans', sans-serif;
+    float: left;
+    width: 100%;
+    color: #000;
+    padding-bottom: 13px
+  }
+
+  .srch_btn1 {
+    width: 100%;
+    background: #f77621;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: right;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    padding: 10px 20px;
+    transition: .3s
+  }
+
+  .inp_prdcinn {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px
+  }
+
+  .rst_bg>ul>li:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-size: 33px;
+    text-shadow: 2px 2px 2px #343434;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    line-height: 37px;
+    display: inline-block
+  }
+
+  .rst_bg>ul>li:nth-child(2) {
+    width: 100%;
+    height: auto;
+    display: inline;
+    text-align: center;
+    margin-left: 65px
+  }
+
+  .lsnt {
+    padding: 20px;
+    border-bottom: 1px solid #dedede;
+    font-family: 'Roboto'
+  }
+
+  .lsnt>h2 {
+    color: #115cb7;
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 600
+  }
+
+  .lsnt>h4 {
+    color: #f77621;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0
+  }
+
+  .lsnt>h6 {
+    color: #0a0a0a;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/addr_pin.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .lsnt>p {
+    color: #6d6d6d;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/prdc_icn.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .sel_mega>ul>li {
+    width: 48%;
+    float: left;
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    color: #000;
+    padding: 7px 5px;
+    transition: 1s
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 100%;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #f7f7f7;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15)
+  }
+
+  .in_prdin {
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    border: 0;
+    font-family: 'PT Sans';
+    font-size: 17px
+  }
+
+  .sec_dir {
+    border: 0;
+    width: 100%;
+    padding: 10px 5px;
+    font-family: 'PT Sans';
+    text-align: left;
+    border-bottom: 1px dashed #dedede;
+    font-size: 17px;
+    border-right: 1px solid #dedede
+  }
+
+  .srch_btn {
+    background: #115cb7;
+    color: #fff;
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: .3s;
+    font-weight: bold
+  }
+
+  .inp_prdc {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px;
+    border-bottom: 1px solid #dedede
+  }
+
+  .tbs_btn>ul>li {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    padding: 13px 9px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    box-shadow: inset 0 0 0 0 #115cb7;
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .8s;
+    cursor: pointer
+  }
+
+  .tbs_btn>ul>li.active {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #115cb7;
+    padding: 13px 9px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #dedede
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .popup-box {
+    width: 120%;
+    padding: 20px;
+    transform: translate(-50%, -50%) scale(0.5);
+    position: absolute;
+    border: 7px solid #115cb7;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background: #fff;
+    text-align: center
+  }
+
+  .cntry_lst>ul>li {
+    width: 100%;
+    border-right: 1px dashed #dedede;
+    float: left;
+    padding: 10px 20px 10px 30px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    trainsitiion: .5
+  }
+
+  .continent_ar>ul>li {
+    font: 26px/27px 'PT Sans', sans-serif;
+    float: left;
+    width: 100%;
+    color: #000;
+    padding-bottom: 13px
+  }
+
+  .srch_btn1 {
+    width: 100%;
+    background: #f77621;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: right;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    padding: 10px 20px;
+    transition: .3s
+  }
+
+  .inp_prdcinn {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px
+  }
+
+  .rst_bg>ul>li:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-size: 33px;
+    text-shadow: 2px 2px 2px #343434;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    line-height: 37px;
+    display: inline-block
+  }
+
+  .rst_bg>ul>li:nth-child(2) {
+    width: 100%;
+    height: auto;
+    display: inline;
+    text-align: center;
+    margin-left: 65px
+  }
+
+  .lsnt {
+    padding: 20px;
+    border-bottom: 1px solid #dedede;
+    font-family: 'Roboto'
+  }
+
+  .lsnt>h2 {
+    color: #115cb7;
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 600
+  }
+
+  .lsnt>h4 {
+    color: #f77621;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0
+  }
+
+  .lsnt>h6 {
+    color: #0a0a0a;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/addr_pin.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .lsnt>p {
+    color: #6d6d6d;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100%;
+    background: url(/assets/images/prdc_icn.png) no-repeat;
+    padding-left: 25px;
+    background-position: 0 3px
+  }
+
+  .sel_mega>ul>li {
+    width: 48%;
+    float: left;
+    font-family: 'Ubuntu';
+    font-size: 13px;
+    color: #000;
+    padding: 7px 5px;
+    transition: 1s
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 100%;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #f7f7f7;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15)
+  }
+
+  .in_prdin {
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    border: 0;
+    font-family: 'PT Sans';
+    font-size: 17px
+  }
+
+  .sec_dir {
+    border: 0;
+    width: 100%;
+    padding: 10px 5px;
+    font-family: 'PT Sans';
+    text-align: left;
+    border-bottom: 1px dashed #dedede;
+    font-size: 17px;
+    border-right: 1px solid #dedede
+  }
+
+  .srch_btn {
+    background: #115cb7;
+    color: #fff;
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: .3s;
+    font-weight: bold
+  }
+
+  .inp_prdc {
+    border: 0;
+    background: #fff;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 35px;
+    color: #1b1a1a;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: url(/assets/images/search_icon.png) no-repeat;
+    background-position: 10px 13px;
+    border-bottom: 1px solid #dedede
+  }
+
+  .tbs_btn>ul>li {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    padding: 13px 9px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    box-shadow: inset 0 0 0 0 #115cb7;
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .8s;
+    cursor: pointer
+  }
+
+  .tbs_btn>ul>li.active {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #115cb7;
+    padding: 13px 9px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid #dedede
+  }
+}
